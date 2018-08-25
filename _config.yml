@@ -11,9 +11,13 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
  My Personal Website.
 baseurl: "" # the subpath of your site, e.g. /blog
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 remote_theme: grayscale
 # Build settings
 markdown: kramdown
+permalink: pretty
